@@ -58,3 +58,5 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+# 以下是真正的readme
+感谢三位巨神带我，最终实现了一个很好看的网站。
