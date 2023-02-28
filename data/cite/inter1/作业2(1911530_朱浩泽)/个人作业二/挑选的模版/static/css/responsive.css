@@ -1,0 +1,374 @@
+﻿
+@media only screen and (min-width: 1501px) {
+    .contact-page .contact-form {
+        padding: 75px 200px;
+    }
+    .contact-page .title-rotated {
+        right: 128px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 1750px) {
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    .hero-section {
+        min-height: 700px;
+    }
+    .hero-content {
+        padding-top: 100px;
+    }
+    .hero-content h1,
+    .page-title h2 {
+        font-size: 85px;
+    }
+    .hero-content .text-lighter {
+        letter-spacing: 5px;
+    }
+    .scroll-down {
+        margin-top: 100px;
+    }
+    .scroll-box:before {
+        height: 50px;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .client-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .client-item {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .ras-content {
+        max-width: 470px;
+    }
+    .rastaurant-right .border-text {
+        padding-left: 55px;
+        letter-spacing: 0;
+    }
+    .rastaurant-right .border-text:before {
+        width: 33px;
+    }
+    .call-action-inner {
+        padding: 70px 65px;
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) { 
+    
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .ras-content,
+    .about-content {
+        max-width: 705px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-section {
+        min-height: 550px;
+    }
+    .banner-inner {
+        height: 350px;
+    }
+    .page-title {
+        padding-top: 75px;
+    }
+    .page-title h2,
+    .hero-content h1 {
+        font-size: 65px;
+    }
+    .count-text {
+        font-size: 55px;
+        margin-left: 10px;
+    }
+    .success-content h3 {
+        margin-bottom: 0;
+    }
+    .contact-widget {
+        float: left;
+        margin-top: 50px;
+    }
+    .contact-map {
+        height: 800px;
+    }
+    .property-single-right {
+        padding: 100px 50px;
+    }
+    .property-single-right:after {
+        width: 100%;
+        left: 0;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) { 
+    
+
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    .page-title h2,
+    .hero-content h1 {
+        font-size: 55px;
+    }
+    .page-title span {
+        letter-spacing: 3px;
+    }
+    .hero-content .text-lighter {
+        letter-spacing: 1px;
+    }
+    .ras-content,
+    .about-content {
+        max-width: 525px;
+    }
+    .rastaurant-right h2 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .video-inner:after {
+        left: 15px;
+        bottom: 18px;
+    }
+    .video-play {
+        height: 55px;
+        width: 55px;
+        font-size: 14px;
+        line-height: 55px;
+    }
+    .contact-form {
+        padding: 75px 50px;
+    }
+    .title-rotated {
+        font-size: 55px;
+        bottom: 185px;
+        right: 8px;
+    }
+    .call-action-inner {
+        padding: 40px;
+    }
+    .instagram-item {
+        width: 33%;
+    }
+    .instagram-item img {
+        width: 100%;
+    }
+    .banner-section nav {
+        margin-left: 0;
+        padding: 11px 45px 10px;
+    }
+    .contact-map {
+        height: 650px;
+    }
+    .apartment-tab .nav li {
+        margin: 0;
+    }
+    .apartment-tab .nav li a {
+        font-size: 16px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 575px) {
+    .ras-content,
+    .about-content {
+        max-width: 100%;
+        padding-left: 35px;
+        padding-right: 15px;
+    }
+    .wp-images {
+        margin-right: 100px;
+    }
+    .experience-year {
+        right: -100px;
+        transform: translate(0);
+        padding: 10px 25px 15px 35px;
+    }
+    .experience-year .number {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .service-page-images img:first-child {
+        margin-left: 15%;
+        width: 85%;
+    }
+
+    .service-page-images img:last-child {
+        width: 85%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-section {
+        min-height: 450px;
+        padding: 50px 0;
+    }
+    .page-title h2,
+    .hero-content h1 {
+        font-size: 45px;
+    }
+    .scroll-box:before,
+    .property-right-content .border-text:before {
+        display: none;
+    }
+    .scroll-down {
+        margin-top: 20px;
+    }
+    .section-title h2 {
+        font-size: 38px;
+    }
+    .wp-images img:last-child {
+        width: 95%;
+    }
+    .subscribe {
+        display: block;
+    }
+    .subscribe input::placeholder {
+        text-align: center;
+    }
+    .subscribe .theme-btn {
+        min-width: 100%;
+    }
+    .instagram-item {
+        width: 50%;
+    }
+    .bottom-inner {
+        display: block;
+        padding-top: 35px;
+    }
+    .blog-image .date {
+        left: 12px;
+        bottom: 12px;
+        padding: 8px 25px;
+    }
+    .blog-quote {
+        padding: 50px 25px;
+    }
+    blockquote {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+    .property-single-left {
+        height: 700px;
+    }
+    .property-single-left,
+    .property-left-content {
+        padding: 50px 15px;
+    }
+    .property-single-right {
+        padding: 100px 25px;
+    }
+    .property-left-content h3,
+    .property-right-content h3 {
+        font-size: 24px;
+    }
+    .property-right-content .border-text {
+        padding-left: 0;
+    }
+    .hidden-bar {
+        width: 280px;
+    }
+    .hidden-bar .inner-box {
+        padding: 80px 25px 40px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .rastaurant-right h2 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .rastaurant-right .border-text {
+        padding-left: 0;
+    }
+    .rastaurant-right .border-text:before {
+        display: none;
+    }
+    .hero-content h1 {
+        font-size: 35px;
+    }
+    .section-title h2 {
+        font-size: 33px;
+        letter-spacing: 5px;
+    }
+    .apartment-carousel .owl-nav div {
+        padding: 10px 35px;
+    }
+    .wp-images {
+        margin-right: 25px;
+    }
+    .wp-images img:last-child {
+        right: -25px;
+    }
+    .wp-images:after {
+        width: 8px;
+    }
+    .experience-year .number {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .experience-year {
+        right: -25px;
+        padding: 10px 25px 15px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    
+}
+

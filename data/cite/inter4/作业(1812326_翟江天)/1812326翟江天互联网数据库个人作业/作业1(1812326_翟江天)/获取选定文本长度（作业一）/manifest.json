@@ -1,0 +1,10 @@
+{
+  "name": "length_shower",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "show the length of selected text",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["length.js"]
+  }
+}

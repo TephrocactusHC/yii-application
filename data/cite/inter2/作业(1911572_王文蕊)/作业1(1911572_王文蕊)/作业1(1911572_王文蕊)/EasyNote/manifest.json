@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "EasyNote",
+	"version": "1.0.0",
+	"description": "A tool to note easily in chrome. ",
+	"author": "daoket",
+	"icons": {
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}

@@ -1,0 +1,20 @@
+{  
+    "name": "网页预览", //程序名称 
+    "version": "1.0",  //版本号
+    "description": "互联网数据库开发个人作业1910874赵一林",  //描述
+    "browser_action": {  
+      "default_icon": "icon.png" ,
+      "default_title": "URL",
+      "default_popup": "myApp.html"  //是点击之后的弹窗操作
+    } ,
+    "Content scripts":"test.js",
+    "permissions": [ //需要用到的权限
+          "tabs", 
+          "http://*/*", 
+          "https://*/*", 
+          "notifications"
+        ],
+  
+     "manifest_version": 2  //一定要注意了，没有这个的话在最新版本的Chrome中无法安装插件
+  } 
+  

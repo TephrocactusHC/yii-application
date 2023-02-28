@@ -1,0 +1,28 @@
+{
+    "manifest_version":2,
+    "name":"getter",
+    "version":"0.0.18",
+    "description":"none",
+    "icons":{
+        "16":"16.png",
+        "32":"32.png",
+        "64":"64.png"
+    },
+    "browser_action": 
+    {
+        "default_icon": "32.png",
+        "default_title": "demo",
+        "default_popup": "popup.html"
+    },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "content_scripts": 
+    [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery-2.0.0.min.js","content-script.js"],
+            "run_at": "document_start"
+        }
+    ]
+}

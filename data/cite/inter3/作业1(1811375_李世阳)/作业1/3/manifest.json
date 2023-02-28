@@ -1,0 +1,27 @@
+{ 
+    "manifest_version": 2, 
+    "name": "Cissy's First Extension", //插件名称
+    "version": "1.0", //版本
+    "description": "The first extension that CC made.", //插件的描述
+    "browser_action": { //插件加载后生成图标
+        "default_icon": "cc.gif",//图标的图片
+        "default_title": "Hello CC", //鼠标移到图标显示的文字 
+        "default_popup": "popup.html" //单击图标执行的文件
+    }, 
+    "permissions": [ //允许插件访问的url
+        "http://*/", 
+        "bookmarks", 
+        "tabs", 
+        "history" 
+    ], 
+    "background":{//background script即插件运行的环境
+        "page":"background.html"
+        // "scripts": ["js/jquery-1.9.1.min.js","js/background.js"]//数组.chrome会在扩展启动时自动创建一个包含所有指定脚本的页面
+    }, 
+     "content_scripts": [{  //对页面内容进行操作的脚本
+         "matches": ["http://*/*","https://*/*"],  //满足什么条件执行该插件 
+         "js": ["js/jquery-1.9.1.min.js", "js/js.js"],   
+         "run_at": "document_start",  //在document加载时执行该脚本
+         "all_frames": true
+    }] 
+}

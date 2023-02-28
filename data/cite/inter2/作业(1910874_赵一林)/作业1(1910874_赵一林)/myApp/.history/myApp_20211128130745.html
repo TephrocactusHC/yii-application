@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>wordCloud</title>
+
+</head>
+
+<body>
+
+<p id="title">
+	我的词云图
+</p>
+<div id="WordCloud"></div>
+<script src="echarts.min.js"></script>
+<script src="echarts-wordcloud.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+
+
+
+<script type="text/javascript" src="myApp.js"></script>
+<script>
+
+var chart = echarts.init(document.getElementById('WordCloud'));
+ 
+ var option = {
+	 tooltip: {},
+	 series: [ {
+		 type: 'wordCloud',
+		 gridSize: 2,
+		 sizeRange: [12, 50],
+		 rotationRange: [-90, 90],
+		 shape: 'pentagon',
+		 width: 600,
+		 height: 400, 
+		 drawOutOfBound: true,
+		 textStyle: {
+			 normal: {
+				 color: function () {
+					 return 'rgb(' + [
+						 Math.round(Math.random() * 255),
+						 Math.round(Math.random() * 255),
+						 Math.round(Math.random() * 255)
+					 ].join(',') + ')';
+				 },
+			 },
+			 emphasis: {
+				 shadowBlur: 10,
+				 shadowColor: '#333'
+			 }
+		 },
+		 //数据自己加
+		 data: [
+			 {
+				 name: 'Sam S Club',
+				 value: 10000,
+				 // textStyle: {
+				 //     normal: {
+				 //         color: 'black'
+				 //     },
+				 //     emphasis: {
+				 //         color: 'red'
+				 //     }
+				 // }
+			 },
+			 {
+				 name: 'Macys',
+				 value: 6181
+			 },
+			 {
+				 name: 'Amy Schumer',
+				 value: 4386
+			 },
+		 ]
+	 } ]
+ };
+
+ chart.setOption(option);
+
+ window.onresize = chart.resize;
+</script>
+</body>
+
+</html>

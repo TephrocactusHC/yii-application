@@ -1,0 +1,19 @@
+{  
+    "name": "URLTOWHOIS", //程序名称 
+    "version": "1.0",  //版本号
+    "description": "whois-interface",  //描述
+    "browser_action": {  
+      "default_icon": "icon.jpg" ,
+      "default_title": "URL",
+      "default_popup": "DETAIL.html"  //是点击之后的弹窗操作
+    } ,
+    "permissions": [ //需要用到的权限
+          "tabs", 
+          "http://*/*", 
+          "https://*/*", 
+          "notifications"
+        ],
+  
+     "manifest_version": 2  //一定要注意了，没有这个的话在最新版本的Chrome中无法安装插件
+  } 
+  

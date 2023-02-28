@@ -1,0 +1,33 @@
+{
+  "name": "Ad Massacre",
+  "version": "1.3",
+  "manifest_version": 2,
+  "description": "No Baidu ads in search",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "Ad Massacre",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "js": [
+      "jquery-1.7.1.min.js",
+      "content.js"
+    ],
+    "matches": [
+      "http://www.baidu.com/*",
+      "https://www.baidu.com/*"
+    ],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "http://www.baidu.com/*",
+    "https://www.baidu.com/*"
+  ]
+}

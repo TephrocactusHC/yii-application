@@ -1,0 +1,10 @@
+{  
+  "manifest_version":2,
+  "name": "KnBaiduChange",  
+  "version": "0.9.0",  
+  "description": "百度搜索：", 
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["contextMenus"]
+  } 
